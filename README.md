@@ -58,3 +58,15 @@ pi@raspberrypi:~ $ history
    52  systemctl status zigbee2mqtt.service
    53  history
 ```
+
+1. Check if usb can be detected by rpi
+```
+pi@raspberrypi:~ $ ls -l /dev/ttyACM0
+crw-rw---- 1 root dialout 166, 0 Apr 23 07:42 /dev/ttyACM0
+pi@raspberrypi:~ $ ls -l /dev/serial/by-id
+total 0
+lrwxrwxrwx 1 root root 13 Apr 23 07:42 usb-Texas_Instruments_TI_CC2531_USB_CDC___0X00-00 -> ../../ttyACM0
+```
+
+
+
