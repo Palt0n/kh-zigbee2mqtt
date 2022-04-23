@@ -1,5 +1,6 @@
 # kh-zigbee2mqtt
 
+Steps to install zigbee2mqtt in raspberry pi
 
 ```
 pi@raspberrypi:~ $ history
